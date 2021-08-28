@@ -10,7 +10,7 @@ Frontend can be found at `https://github.com/ernestasga/tenders-tracker-frontend
 * Run `php artisan key:generate`
 
 *By default this project is using local SQLITE database located at `database/database.sqlite`, feel free to change it by modifying `.env` file*
-
+* Create an empty file named `database.sqlite` in `/database` directory
 * Run `php artisan migrate`
 * ***Optional*** Run `php artisan db:seed`
 * Run `php artisan serve --port=8000`
